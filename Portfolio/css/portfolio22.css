@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Play', sans-serif;
+}
+
+header.myheader{
+    background: linear-gradient(rgba(83, 12, 80, 0.6),rgba(0,0,0,0.6)),url('../images/wallpaperflare.com_wallpaper\ \(1\).jpg');
+    background-size: cover;
+    height: 1100px;
+    
+}
+header.myheader nav.mynav ul.navbar li{
+ display: inline-block;
+ font-size: 30px;
+}
+
+header.myheader nav.mynav ul.navbar li a{
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 10px;
+}
+header.myheader nav.mynav  div.hamburger{
+    display: none;
+    cursor: pointer;
+    
+}
+
+header.myheader nav.mynav div.hamburger span.bar1{
+    display: block;
+    width: 20px;
+    height: 3px;
+    margin: 35px 20px 5px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+header.myheader nav.mynav div.hamburger span.bar{
+    display: block;
+    width: 20px;
+    height: 3px;
+    margin: 5px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+header.myheader nav.mynav ul.navbar li a::after{
+    width: 0px;
+    content: '';
+    height: 3px;
+    background-color: blueviolet;
+    margin: auto;
+    display: block;
+
+}
+
+header.myheader nav.mynav ul.navbar li a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+header.myheader nav.mynav ul.navbar li.left{
+    float: left;
+}
+
+header.myheader nav.mynav ul.navbar li.right{
+    float: right
+}
+header.myheader nav.mynav ul.navbar::after{
+    display: block;
+    clear:both ;
+    content: '';
+}
+
+header.myheader nav.mynav ul.navbar li.right:hover {
+    background-color: black;
+    border-radius: 1100px;
+}
+
+header.myheader div.container h2.myintro{
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 360px;
+    margin-left: 50px;
+}
+header.myheader div.container p.skills{
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+
+header.myheader div.container a.projects{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    color: white;
+     border: none;
+     background-color: rgba(146, 32, 149 ,0.8);
+     border-radius: 5px;
+     box-shadow: inset 0 0 0 0 rgba(29, 39, 180,0.7);
+     transition: ease-out 0.3s;
+     font-size: 25px;
+     text-align: center;
+     outline: none;
+     text-decoration: none;
+     align-items: center;
+    margin-left: 900px;
+    margin-top: 45px; 
+}
+header.myheader div.container a.projects:hover{
+    box-shadow: inset 150px 0 0 0 rgba(29, 39, 180,0.7);
+    cursor: pointer;
+    color: black;
+}
+header.myheader div.container p.alert{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgba(236, 236, 119,0.7);
+}
+section.about h2.aboutheading{
+    margin: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+section.about div.container div.content,div.img{
+    width: 50%;
+    float: left;
+}
+
+section.about div.container div.content{
+    margin-top: 100px;
+    padding: 25px;
+}
+section.about div.container div.content p.aboutpara{
+    font-size: 25px;
+    padding: 30px;
+}
+
+section.about div.container div.content a{
+    font-size: 20px;
+    background-color: lightseagreen;
+    color: black;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+section.about div.container div.content a:hover{
+    background-color: black;
+    color: white;
+}
+section.achivements div{
+    display: flex;
+    display: inline-block;
+    width: 25%;
+}
+div.achievements{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    font-size: 20px;
+}
+div.achievements div.academics{
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(rgba(83, 12, 80, 0.3),rgba(0,0,0,0.5)),url('../images/wallpaperflare.com_wallpaper\ \(1\).jpg');
+    color: white;
+    border-radius: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+div.achievements div.certificates{
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(rgba(83, 12, 80, 0.3),rgba(0,0,0,0.5)),url('../images/wallpaperflare.com_wallpaper\ \(1\).jpg');
+    color: white;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+div.achievements div.organisation{
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(rgba(83, 12, 80, 0.3),rgba(0,0,0,0.5)),url('../images/wallpaperflare.com_wallpaper\ \(1\).jpg');
+    color: white;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+div.achievements div.AIprojects{
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(rgba(83, 12, 80, 0.3),rgba(0,0,0,0.5)),url('../images/wallpaperflare.com_wallpaper\ \(1\).jpg');
+    color: white;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+div.achievements a.seemore{
+    text-decoration: none;
+    color: rgb(173, 172, 172);
+    border: none;
+     border-radius: 10px;
+     box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0.7);
+     transition: ease-out 0.6s;
+}
+div.achievements a.seemore:hover{
+box-shadow: inset 150px 0 0 0 rgba(196, 76, 233, 0.746);
+    cursor: pointer;
+    color: white;
+}
+div.contact{
+    background:linear-gradient(rgba(72, 35, 235, 0.431),rgba(223, 40, 255, 0.322));
+}
+div.contact h1.headingcontact{
+    text-align: center;
+    margin-bottom: 50px;
+}
+div.contact div.contactbox img.leftlogo{
+        float: left;
+}
+div.contact div.contactbox img.rightlogo{
+        float: right;
+}
+div.contact div.contactbox a.facebook{
+    margin: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+div.contact div.contactbox a.Instagram{
+    margin: 20px;
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+div.contact div.contactbox div.more a.Twitter{
+    margin: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+div.contact div.contactbox div.more a.Linkdin{
+    margin: 20px;  
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+
+div.contact div.contactbox a.facebook:hover{
+
+    box-shadow: inset 300px 0 0 0 rgb(22, 114, 235);
+    cursor: pointer;
+    color: black;
+}
+div.contact div.contactbox a.Instagram:hover{
+
+    box-shadow: inset 300px 0 0 0 rgba(172, 57, 166, 0.719);
+    cursor: pointer;
+    color: black;
+}div.contact div.contactbox a.Twitter:hover{
+
+    box-shadow: inset 300px 0 0 0 rgb(87, 189, 248) ;
+    cursor: pointer;
+    color: black;
+}div.contact div.contactbox a.Linkdin:hover{
+
+    box-shadow: inset 300px 0 0 0  rgb(28, 100, 214) ;
+    cursor: pointer;
+    color: black;
+}
+

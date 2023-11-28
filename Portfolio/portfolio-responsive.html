@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 22 responsive</title>
+    <link rel="stylesheet" href="./css/portfolio22.css">
+    <link rel="stylesheet" href="./css/portfolio-responsive.css">
+</head>
+<body>
+    
+</body>
+</html>
+</head>
+    <body>
+     <header class="myheader">
+         <nav class="mynav">
+             <div class="hamburger">
+                <span class="bar1"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+             </div>
+             <ul class="navbar">
+               <li class="left"> <a class="nav-link" href="#" class="project">Projects</a></li>
+               <li class="left"> <a class="nav-link" href="#">Github</a></li>
+               <li class="left"> <a class="nav-link" href="Resume .pdf">Resume</a></li>
+               <li class="right"><a class="nav-link" href="#1011">Contact</a></li>
+           </ul>
+         </nav>
+         <div class="container"> 
+             <h2 class="myintro">Iam Mairaj hussain</h2>
+
+             <p class="skills">
+                 Freelancer | AI | Football
+                </p>
+                <a href="#" class="projects">My Projects</a>
+            </div>
+            </header>
+            <section class="about">
+                <h2 class="aboutheading">About me</h2>
+                <div class="container">
+                    <div class="content">
+                      <p class="aboutpara">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque ab in vitae libero, magnam sed incidunt, facere, culpa quidem obcaecati labore explicabo dolores nostrum quo unde enim laborum non eveniet qui ea cupiditate optio sit. Reprehenderit, recusandae quis. Blanditiis enim unde molestias eligendi non possimus esse, ab suscipit iste voluptatum dolores accusantium et est voluptatibus! Ipsa omnis rem consectetur possimus! At quod neque ipsum incidunt accusantium assumenda sint iusto, ut adipisci molestiae odit facilis. Soluta nihil magnam numquam dignissimos veniam sint quisquam architecto? Sapiente perspiciatis veritatis nihil id. Aliquam eaque assumenda obcaecati amet neque. Dolorum facilis ipsam maxime molestiae!
+                      </p>
+                      <a href="#" class="myportfoliio">My portfolio!</a>
+                     </div>
+                  <div class="img">
+                    <img src="./images/26877297.jpg" height="350px" alt=""  >
+                 </div>
+                </div>
+            </section>
+           <div class="achievements">
+               <div class="academics">
+                   <h4 class="headingAca">Academics <img src="./images/book.png" alt="" height="30px" class="academicsimg"></h4>
+                   <br>
+                   <p class="aboutAcademics">Get to know about my academics and my performance from begining and acedemic achievement</p>
+                   <br>
+                   <a href="#" class="seemore">see more</a>
+                </div>
+                <div class="certificates">
+                    <h4 class="headingcer">Certificates <img src="./images/certificate.png" alt="" height="30px" class="certificateimg"></h4>
+                    <br>
+                    <p class="Aboutcertificates">You can scrutinize my certificates from various learning platform <br>i.e (cs50,Udemy)</p>
+                    <br>
+                    <a href="#" class="seemore">see more</a>
+                </div>
+                <div class="organisation">
+                    <h4 class="headingorg">Organisation <img src="./images/organisation.png" alt="" height="30px" class="organisationimg"></h4>
+                    <br>
+                    <p class="Aboutorganisation">Here is the list of organisations for which i have worked as an intern or a freelancer and certifications provided by them and more</p>
+                    <br>
+                    <a href="#" class="seemore">see more</a>
+                </div>
+                <div class="AIprojects">
+                    <h4 class="headingAI">AI projects <img src="./images/project.png" alt="" height="30px" class="AIprojectimg"></h4>
+                    <br>
+                    <p class="AboutAIprojects">As I am an Artificial Intelligence student apart from web and software projects I have got couple of AI projects</p>
+                    <br>
+                    <a href="#" class="seemore">see more</a>
+                    
+                </div>
+           </div>
+           <div id="1011" class="contact">
+               <h1 class="headingcontact">Contact Me</h1>
+              <div class="contactbox">   
+                <img src="./images/facebook.png" height="80px" alt="" class="leftlogo"> <a href="#" class="facebook">Facebook</a>  
+                <img src="./images/Instagram.png" height="80px" alt="" class="rightlogo"> <a href="https://www.instagram.com/mair4j/" class="Instagram">Instagram</a>
+                   
+                   <div class="more"> 
+                       <img src="./images/twitter.png" height="100px" alt="" class="leftlogo"> <a href="#" class="Twitter">Twitter</a>  
+                       <img src="./images/linkdin.png" height="90px" alt="" class="rightlogo"> <a href="https://www.linkedin.com/in/mairaj-hussain-2433861ba" class="Linkdin">LinkdIn</a>
+                </div>
+               </div>
+           </div>
+        <script>
+        const hamburger = document.querySelector("header.myheader nav.mynav div.hamburger");
+            const navbar = document.querySelector("header.myheader nav.mynav ul.navbar");
+            
+            hamburger.addEventListener("click",()=> {
+                hamburger.classList.toggle("active");
+                navbar.classList.toggle("active");
+            })
+            
+            document.querySelectorAll(".nav-link").forEach(n=> n.addEventListener("click",()=>
+            
+            {
+                hamburger.classList.remove("active");
+                navbar.classList.remove("active");
+            }))</script>
+    </body>
+    </html>

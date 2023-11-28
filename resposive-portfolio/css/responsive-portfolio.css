@@ -1,0 +1,140 @@
+@media (max-width:500px) {
+    header.myheader nav.mynav ul.navbar li.left{
+        float: none;
+        display: block;
+    }
+    header.myheader nav.mynav ul.navbar li.right{
+        float: none;
+        display: block;
+    }
+header.myheader nav.mynav ul.navbar{
+    background-color: rgba(39, 6, 37, 0.4);
+    position: absolute;
+    width: 100%;
+    transition: 0.3s;
+    text-align: center;
+    left: -100%;
+}
+    
+header.myheader nav.mynav{  
+    
+    width: 100%;
+    transition: 0.3s;
+    text-align: center;
+    background-color: rgba(39, 6, 37, 0.4);
+    
+}
+
+header.myheader nav.mynav ul.navbar li a{
+    display: inline-block;
+    font-size: 25px;
+    margin:  10px;
+}
+header.myheader nav.mynav div.hamburger{
+    display: inline-block;
+    margin-left: -350px;
+}
+header.myheader nav.mynav  div.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+header.myheader nav.mynav div.hamburger.active .bar1:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+header.myheader nav.mynav div.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+header.myheader nav.mynav ul.navbar.active{
+    left: 0%;
+}
+header.myheader nav.mynav ul.navbar li a.project{
+    margin-top: 25px;
+}
+    
+    header.myheader div.container h2.myintro{
+        display: inline-block;
+        font-size: 35px;
+        color: whitesmoke;
+        text-align: center;
+        margin-top: 250px;
+        margin-left: 50px;
+       
+    }
+
+    header.myheader{
+        background: linear-gradient(rgba(83, 12, 80, 0.6),rgba(0,0,0,0.6)),url('../images/wallpaperflare.com_wallpaper\ \(1\).jpg');
+        background-position-x: center;
+        background-position-y: center;
+        height: 850px;
+        width: 400px;         
+    }
+    header.myheader div.container p.skills{
+        font-size: 30px;
+        margin-left: 35px;
+    
+    }
+    header.myheader div.container a.projects{
+        margin-left: 120px;
+        color: black;
+        background-color: cornflowerblue;
+        
+        margin-top: 40px;
+    }
+    section.about div.container div.content{
+        margin-top: 0%;
+    }
+    section.about div.container div.img{
+        margin-left: -20px;
+    }
+    section.about div.container div.content,div.img{
+        width: 100%;      
+    }
+    section.about div.container div.content p.aboutpara{
+        font-size: 20px;
+    }
+    div.achievements{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 350px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    div.achievements div.academics,div.certificates,div.organisation{
+        margin-bottom: 20px;
+    }
+    div.contact h1.headingcontact{
+        margin-top: 90px;
+        margin-bottom: 30px;
+    }
+    div.contact{
+        height: 100%;
+        width: 100%;
+    }
+    div.contact div.contactbox img.leftlogo{
+        float: left;
+        
+    }
+div.contact div.contactbox img.rightlogo{
+        float: left;
+        margin-left: 10px;
+}
+div.contact div.contactbox a.facebook{
+    margin: 10px;
+    margin-top: 0%;
+    font-size: 40px;
+}
+div.contact div.contactbox a.Instagram{
+    margin: 0%;
+    font-size: 40px;
+    float: none;
+}
+div.contact div.contactbox div.more a.Twitter{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+div.contact div.contactbox div.more a.Linkdin{
+    margin: 0%;
+    float: none;
+}
+}
